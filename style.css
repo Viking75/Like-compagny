@@ -1,0 +1,242 @@
+body {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu {
+    text-align: center;
+    position: fixed;
+    background-color:white;
+    width: 100%;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 175px;
+    padding: 20px 40px;
+    font-weight: lighter;
+}
+
+.menu a:hover {
+    background-color: #cccccc;
+    color: black;
+}
+
+.header {
+    margin-left: 10%;
+    text-align: center;
+    background-color: white;
+    color: white;
+    padding:50px 0;
+    background-image: url(image/polygons.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 80%;
+    padding-top: 150px;
+}
+
+.header a {
+    /*contour*/
+    padding: 12px 14px;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 45px;
+    color: black;
+}
+
+.header a:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+.header p {
+    margin: 45px 0;
+}
+
+/*style pour séparée le projet*/
+#projects img {
+    width: 400px;
+    float: left;
+}
+
+#projects h2 {
+    text-align: center;
+}
+
+#projects {
+    max-width: 1200px;
+    padding: 40px 0;
+    margin: 0 auto;
+}
+
+/*style pour le bloc de commende*/
+
+#team {
+    text-align: center;
+}
+
+.member {
+    display: inline-block;
+    width: 20%;
+    margin: 20px 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-radius: 5px;
+    vertical-align: top;
+    padding: 10px;
+    text-align: left;
+}
+
+.member img {
+    width: 100%;
+}
+
+.member a {
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    color: white;
+    background-color: #055b73;
+    border-radius: 7px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.member h3 {
+    font-weight: 400;
+}
+
+.puris a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 20px 40px;
+}
+
+.puris a:hover {
+    background-color: #cccccc;
+    color: black;
+}
+.tarif {
+    display: inline-block;
+    width: 28%;
+    min-width:150px ;
+    margin: 15px;
+    background-color: white;
+    padding: 0;
+    vertical-align: middle;
+}
+#prix {
+ background: #616161;
+    text-align: center;
+    padding: 50px 0px;
+}
+#prix h1,#prix p {
+    color: white;
+
+}
+.tarif li{
+    list-style-type: none;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color:#dddddd;
+    padding: 16px 0px;
+    width: 100%;
+
+}
+
+.tarif .tarif_name {
+    color: white  ;
+    background-color: black;
+    font-size: 24px;
+    padding: 32px 0px;
+    transition: 0.6s;
+}
+.important {
+    font-weight: bold;
+}
+#prix .tarif .prix {
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+}
+#prix .tarif .period{
+    opacity: 0.4;
+    color: black;
+}
+.tarif a {
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.tarif li:last-child {
+    padding: 24px 0px;
+    background-color: #c2c7bd;
+}
+.tarif a:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+.tarif:hover .tarif_name {
+    background-color: #055b73;
+    padding: 48px 0px;
+    transition: 0.5s;
+}
+#contacts {
+    background-color: #f1f1f1;
+    padding:40px;
+    text-align: center;
+}
+.contact-info {
+    text-align: left;
+    padding-left: 30px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    margin-left: 5%;
+}
+.contact-adresse {
+    background-image: url("image/address.png");
+}
+.contact-tel {
+    background-image: url("image/phone.png");
+}
+.contact-mail {
+    background-image: url("image/mail.png");
+}
+#contacts input {
+    width: 90%;
+    padding: 8px;
+    border: none;
+}
+#contacts button {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+}
+#contacts button:hover {
+    background-color:white;
+    color: black;
+    transition: 0.5s;
+}
+.footer {
+    width: 100%;
+    color: white;
+    background-color: black;
+    padding: 15px 0;
+}
